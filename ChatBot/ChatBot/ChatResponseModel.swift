@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Welcome
+// MARK: - ChatResponseModel
 struct ChatResponseModel: Codable {
   let id, object: String
   let created: Int

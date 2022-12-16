@@ -75,7 +75,6 @@ struct ChatView: View {
   
   func submitQuestion() {
     let ask = self.question
-    //let ask = setupText()
     askBot(q: ask)
   }
   
