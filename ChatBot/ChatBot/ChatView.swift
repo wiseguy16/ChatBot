@@ -1,6 +1,6 @@
 //
 //  ChatView.swift
-//  MFAScraps
+//  
 //
 //  Created by GWE48A on 12/10/22.
 //
