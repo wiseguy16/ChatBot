@@ -11,6 +11,9 @@
 		4AF7D067294CC04B0095B8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D066294CC04B0095B8C0 /* ContentView.swift */; };
 		4AF7D069294CC04F0095B8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7D068294CC04F0095B8C0 /* Assets.xcassets */; };
 		4AF7D06C294CC04F0095B8C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7D06B294CC04F0095B8C0 /* Preview Assets.xcassets */; };
+		4AF7D073294CC0860095B8C0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D072294CC0850095B8C0 /* ChatView.swift */; };
+		4AF7D075294CC0930095B8C0 /* QuestionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D074294CC0930095B8C0 /* QuestionMaker.swift */; };
+		4AF7D077294CC1540095B8C0 /* ChatResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D076294CC1540095B8C0 /* ChatResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4AF7D066294CC04B0095B8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AF7D068294CC04F0095B8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF7D06B294CC04F0095B8C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AF7D072294CC0850095B8C0 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4AF7D074294CC0930095B8C0 /* QuestionMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionMaker.swift; sourceTree = "<group>"; };
+		4AF7D076294CC1540095B8C0 /* ChatResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4AF7D064294CC04B0095B8C0 /* ChatBotApp.swift */,
 				4AF7D066294CC04B0095B8C0 /* ContentView.swift */,
+				4AF7D074294CC0930095B8C0 /* QuestionMaker.swift */,
+				4AF7D076294CC1540095B8C0 /* ChatResponseModel.swift */,
+				4AF7D072294CC0850095B8C0 /* ChatView.swift */,
 				4AF7D068294CC04F0095B8C0 /* Assets.xcassets */,
 				4AF7D06A294CC04F0095B8C0 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF7D067294CC04B0095B8C0 /* ContentView.swift in Sources */,
+				4AF7D077294CC1540095B8C0 /* ChatResponseModel.swift in Sources */,
+				4AF7D073294CC0860095B8C0 /* ChatView.swift in Sources */,
+				4AF7D075294CC0930095B8C0 /* QuestionMaker.swift in Sources */,
 				4AF7D065294CC04B0095B8C0 /* ChatBotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
